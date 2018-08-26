@@ -1,0 +1,26 @@
+{
+  "name": "es6-challenges",
+  "version": "1.0.0",
+  "description": "Learn to use ES6 features",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha challenges/**/test.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheepFromHeaven/es6-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheepFromHeaven/es6-challenges/issues"
+  },
+  "homepage": "https://github.com/SheepFromHeaven/es6-challenges#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.5",
+    "sinon-chai": "^3.2.0"
+  }
+}
